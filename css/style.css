@@ -1,0 +1,174 @@
+/* header */
+
+header{
+    background:linear-gradient(rgba(214, 46, 51 , 0.6) 0% 100%) ,url(../images/events-heavenly-header.jpg);
+   
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+
+/* aside */
+  aside li{
+    padding: 20px;
+  }
+ 
+  .menu{
+    background-color: #111111;
+  }
+  aside{
+   
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .menu ul i{
+    left: 80%;
+    color: white;
+   
+
+  }
+  .menu a{
+   color: white;
+   
+
+  }
+  .option{
+
+    left: 100%;
+    top:50%;
+    transform: translateY(-50%);
+  }
+  .option i,.menu i,.option span{
+    cursor: pointer;
+  }
+  
+  .menu a,
+  .menu i {
+    transition: color 1s;
+  }
+
+  .menu a:hover,
+  .menu i:hover {
+    color: rgba(214, 46, 51, 0.6);
+  }
+
+
+
+  /* duration */
+
+  .accordion {
+    max-width: 700px;
+    margin: 20px auto;
+    
+  }
+
+  .accordion-item {
+    overflow: hidden;
+   
+  }
+
+  .accordion-header {
+    background-color:#E68285;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .accordion-content {
+    background-color: #CCCCCC;
+    display: none;
+    padding: 10px;
+}
+
+ /* details */
+ .countdown-container {
+    text-align: center;
+    font-size: 24px;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .countdown-item {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  #days,#hours,#minutes,#seconds{
+    border: 2px white solid ;
+    color: white;
+
+    
+  }
+  #Details{
+    
+    background:linear-gradient(rgba(214, 46, 51 , 0.6) 0% 100%) ,url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+  }
+
+
+  
+/* contact */
+
+
+
+  
+ 
+
+  
+  
+  
+  
+  
+  .form-floating {
+    margin-bottom: 20px; 
+  }
+  
+  .form-control {
+    height: 50px; 
+  }
+  .send button {
+    border: 5px solid transparent; 
+    transition: border 1s, background-color 1s; 
+    border-radius: 0% !important
+  }
+  
+
+  .icon-c {
+    background-color: white;
+    border: 1px solid #777777;
+    color: #777777;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+  }
+  
+  .icon-c:hover {
+    background-color: #D62E33;
+    border: 1px solid transparent;
+  }
+  
+  .icon-c:hover i {
+    color: white;
+  }
+  
+  
+  
+  .form-control {
+    border-radius: 0% !important;
+    transition: none !important; 
+    outline: none !important; 
+    
+  }
+  .contact span{
+    color: #D62E33;
+  }
+ .contact li i{
+    color: #777777;
+ }
